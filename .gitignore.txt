@@ -1,0 +1,66 @@
+# =============== #
+#   UNITY CORE    #
+# =============== #
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Evita cache de pacotes e coisas pesadas
+PackageCache/
+Artifacts/
+
+# Evita arquivos gigantes do Burst compiler
+*.dll
+*.dylib
+*.so
+
+# =============== #
+#     BUILDS      #
+# =============== #
+Build/
+Builds/
+*.apk
+*.aab
+*.exe
+*.app
+*.ipa
+
+# =============== #
+#     CACHES      #
+# =============== #
+*.pidb
+*.booproj
+*.svd
+*.user
+*.userprefs
+
+# =============== #
+#      IDEs       #
+# =============== #
+.vs/
+*.csproj
+*.sln
+*.tmp
+*.db
+
+# Rider / JetBrains
+.idea/
+*.unityproj
+
+# Visual Studio Code
+.vscode/
+
+# =============== #
+#     OUTROS      #
+# =============== #
+obj/
+sysinfo.txt
+*.blend1
+*.meta~
+
+# Evita arquivos grandes desnecessários
+*.pdb
+*.mdb
